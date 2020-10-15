@@ -3,6 +3,7 @@
 # 9000 models, 90 timesteps, E = 70000,  H = 20000,  σʸ = 100, r = 0.5
 using Flux, BSON
 
+cd(@__DIR__)
 
 BSON.@load "network.bson" network
 σ_train_min = -150
