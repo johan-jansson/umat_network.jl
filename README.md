@@ -1,5 +1,7 @@
 umat_network.jl
 
+WORK IN PROGRESS
+
 1. clone the repo
 2. cd umat_network.jl
 3. julia
