@@ -1,5 +1,3 @@
-umat_network.jl
-
 WORK IN PROGRESS
 
 1. clone the repo
@@ -9,3 +7,6 @@ WORK IN PROGRESS
 5. Pkg.activate(".")
 6. Pkg.instantiate()              # This will install the packages listed in Project.toml
 7. include("umat_network.jl")     # This will execute the code
+
+1d_plasticity.jl - creates new training data, trains network, saves network
+umat_network.jl - load, rescale and apply network via umat
